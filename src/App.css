@@ -1,38 +1,91 @@
 .App {
   text-align: center;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #e9aeae;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container1 {
+  margin-top: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.container2,
+.container3,
+.container4 {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #f0ddeed7;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#alertSinNombre {
+  color: #ff0000;
+  font-weight: bold;
+  
 }
 
-.App-link {
-  color: #61dafb;
+#alertConNombre {
+  color: #e25bba;
+  font-weight: bold;
+  font-size: 25px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#ganaRonda,
+#Marcador,
+#MarcadorUs,
+#MarcadorPc {
+  font-weight: bold;
+}
+
+#ronda p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+#botonNombre,
+#reiniciar {
+    background-color: rgba(234, 21, 21, 0.493);
+    color: aliceblue;
+    height: 27px;
+    width: 150px;
+    font-family: Arial, sans-serif;
+    font-size: medium;
+    font-weight: 200;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 2s;
+}
+
+#botonNombre:hover,
+#reiniciar:hover {
+    background-color: rgb(234, 21, 21);
+}
+
+#button1,
+#button2,
+#button3 {
+    border: none;
+    border-radius: 100%;
+    background-color: rgb(216, 148, 148);
+    transition: all 0.2s;
+    padding-top: 0.4%;
+}
+
+#button1:hover,
+#button2:hover,
+#button3:hover {
+    cursor: pointer;
+    transform: scale(1.7);
+    background-color: rgba(255, 255, 255, 0);
+}
+
+img {
+  border-radius: 50%;
+  width: 100x;
+  height: 120px;
 }
