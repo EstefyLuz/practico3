@@ -7,29 +7,37 @@
   background-color: #e9aeae;
 }
 
+h1 {
+  text-shadow: 2px 2px rgb(255, 255, 255);
+  font-size: 40px;
+}
+
 .container1 {
   margin-top: 20px;
 }
 
-
 .container2,
-.container3,
-.container4 {
+.container3 {
   margin-top: 20px;
   padding: 20px;
-  border: 1px solid #ccc;
-  background-color: #f0ddeed7;
+  border: 1px solid #f115f15b;
+  background-color: #f7f2f6d7;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.container4{
+  margin-top: 20px;
+  padding: 20px;
 }
 
 #alertSinNombre {
-  color: #ff0000;
+  color: #881212;
   font-weight: bold;
+  font-size: 20px;
   
 }
 
 #alertConNombre {
-  color: #e25bba;
+  color: #881212;
   font-weight: bold;
   font-size: 25px;
 }
@@ -81,11 +89,14 @@
 #button3:hover {
     cursor: pointer;
     transform: scale(1.7);
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgba(189, 100, 27, 0.349);
 }
 
 img {
   border-radius: 50%;
   width: 100x;
   height: 120px;
+}
+#nombre{
+  height: 20px;
 }
